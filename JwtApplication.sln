@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtApplication.Back", "JwtApplication.Back\JwtApplication.Back.csproj", "{DD127E4A-BD9F-47E1-8834-4408ADC0FA9E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtApplication.Front", "JwtApplication.Front\JwtApplication.Front.csproj", "{1C76DF9B-B12E-4D1B-A5A8-D58D8B60925C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Onion", "Onion", "{2C114DAA-5DE0-4490-ACB4-D76749B0A288}"
@@ -15,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7D73BB10-D4C2-43B4-9EE7-55A13B3125DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.JwtApplication.Domain", "Onion\Core\Onion.JwtApplication.Domain\Onion.JwtApplication.Domain.csproj", "{83EC9FFE-5D8D-4CEA-8F61-D399337E07D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.JwtApplication.Domain", "Onion\Core\Onion.JwtApplication.Domain\Onion.JwtApplication.Domain.csproj", "{83EC9FFE-5D8D-4CEA-8F61-D399337E07D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.JwtApplication.Application", "Onion\Core\Onion.JwtApplication.Application\Onion.JwtApplication.Application.csproj", "{5FE8413E-6F95-4ED0-82A5-829F3310BD64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.JwtApplication.Application", "Onion\Core\Onion.JwtApplication.Application\Onion.JwtApplication.Application.csproj", "{5FE8413E-6F95-4ED0-82A5-829F3310BD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.JwtApplication.Persistence", "Onion\Infrastructure\Onion.JwtApplication.Persistence\Onion.JwtApplication.Persistence.csproj", "{28B8EC79-F75B-4024-B531-A99563DB7D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.JwtApplication.Persistence", "Onion\Infrastructure\Onion.JwtApplication.Persistence\Onion.JwtApplication.Persistence.csproj", "{28B8EC79-F75B-4024-B531-A99563DB7D1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.JwtApplication.API", "Onion\Presentation\Onion.JwtApplication.API\Onion.JwtApplication.API.csproj", "{9D918A23-7CCE-44D3-8C2D-7E7C87163539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.JwtApplication.API", "Onion\Presentation\Onion.JwtApplication.API\Onion.JwtApplication.API.csproj", "{9D918A23-7CCE-44D3-8C2D-7E7C87163539}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD127E4A-BD9F-47E1-8834-4408ADC0FA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD127E4A-BD9F-47E1-8834-4408ADC0FA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD127E4A-BD9F-47E1-8834-4408ADC0FA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD127E4A-BD9F-47E1-8834-4408ADC0FA9E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C76DF9B-B12E-4D1B-A5A8-D58D8B60925C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C76DF9B-B12E-4D1B-A5A8-D58D8B60925C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C76DF9B-B12E-4D1B-A5A8-D58D8B60925C}.Release|Any CPU.ActiveCfg = Release|Any CPU
