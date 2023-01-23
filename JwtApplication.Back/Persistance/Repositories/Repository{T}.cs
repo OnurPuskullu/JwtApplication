@@ -18,6 +18,7 @@ namespace JwtApplication.Back.Persistance.Repositories
         {
             await this.JwtContext.Set<T>().AsNoTracking().ToListAsync();
             await this.JwtContext.SaveChangesAsync();
+            
         }
 
         public async Task<List<T>> GetAllAsync()
